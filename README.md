@@ -1,10 +1,18 @@
-# Laravel template
+# Laravel Migration Seeder
 
-- Bootstrap and some useful folders
+- Creiamo una tabella trains e relativa Migration
 
-1. composer install
-2. cp .env.example .env
-3. php artisan key:generate
-4. npm install
-5. npm run dev
-6. php artisan serve
+- Ogni treno dovrà avere:
+  - Azienda
+  - Stazione di partenza
+  - Stazione di arrivo
+  - Orario di partenza
+  - Orario di arrivo
+  - Codice Treno
+  - Numero Carrozze
+  - In orario
+  - Cancellato
+
+- Create Model relativo ed un Controller per mostrare nella home page tutti i treni che sono in partenza dalla data odierna.
+  
+- Aggiungiamo un seeder per la classe Train usando FakerPHP.
